@@ -1,6 +1,19 @@
 * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: black;
+}
+
+.lightbeam {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 20px;
+}
+
+.mainTitle {
+    color: white;
+    font-size: 100px;
 }
