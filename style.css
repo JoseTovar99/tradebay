@@ -1,7 +1,6 @@
 body {
     background-color: black;
-    background-size: 10px 10px;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -14,6 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .mainDesc {
+    color: white;
   }
 
   /* GLITCH EFFECT */
