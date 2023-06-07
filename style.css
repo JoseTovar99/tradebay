@@ -12,14 +12,15 @@
 .navLayout {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .navLinks {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    
+}
+.navLinks h2 {
+    margin: 10px;
 }
 
