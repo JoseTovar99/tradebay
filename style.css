@@ -1,11 +1,15 @@
-body {
-    background-color: black;
-    height: 80vh;
-    overflow: hidden;
-    display: flex;
+* {
     font-family: 'Montserrat', sans-serif;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+  .firstSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/navyUfo2.jpeg') fixed;
+    height: 750px;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .mainDiv {
