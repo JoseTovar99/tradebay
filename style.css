@@ -2,29 +2,24 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #2A475C;
+    color: white;
 }
 
-  .firstSection {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/navyUfo2.jpeg') fixed;
-    height: 750px;
-    padding-top: 30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .mainDiv {
+.navLogo img {
+    height: 100px;
+}
+.navLayout {
     display: flex;
-    flex-direction: column;
-  }
-  .mainTitle {
-    color: white;
-    font-size: 36px;
-  }
-  .midLine hr {
-    border: .5px solid red;
-
-  }
-  .mainDesc {
-    color: white;
-  }
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
