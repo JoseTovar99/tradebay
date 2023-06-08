@@ -2,12 +2,16 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2A475C;
     color: white;
 }
 
+nav {
+    background-color: #2A475C;
+    
+}
 .navLogo img {
-    height: 100px;
+    height: 80px;
+    cursor: pointer;
 }
 .navLayout {
     display: flex;
@@ -22,5 +26,22 @@
 }
 .navLinks h2 {
     margin: 10px;
+    cursor: pointer;
 }
-
+.navLogin {
+    margin-right: 50px;
+}
+.navLogin button {
+    color: white;
+    font-weight: bolder;
+    background-color: #2A475C;
+    margin-left: 10px;
+    border-radius: 12px;
+    padding: 7px;
+}
+.navButton1 {
+    border: none;
+}
+.navButton2 {
+    border: 1px solid white;
+}
